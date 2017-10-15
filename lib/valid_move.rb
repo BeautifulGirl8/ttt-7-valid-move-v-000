@@ -6,12 +6,12 @@ end
  return false
  end
 
-  elsif index < 9 && board[index] == " "
+  if index < 9 && board[index] == " "
 
     return true
   end
 
-  elsif index < 9 && board[index] == ""
+  if index < 9 && board[index] == ""
      return true
    end
 
