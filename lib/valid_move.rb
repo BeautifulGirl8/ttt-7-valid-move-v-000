@@ -1,13 +1,16 @@
 def valid_move?(board, index)
  if board[index] = "X"
-   return false
- elsif board[index] = "O"
-    return false
+   false
+ end
+ if board[index] = "O"
+    false
+  end
   elsif index < 9 && board[index] == " "
-    return true
-
+    true
+end
   elsif index < 9 && board[index] == ""
-     return true
+     true
+   end
 
 end
 end
