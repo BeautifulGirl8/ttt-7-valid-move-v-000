@@ -14,10 +14,4 @@ end
   if index < 9 && board[index] == ""
      return true
    end
-
-
-
-
-
-
 end
