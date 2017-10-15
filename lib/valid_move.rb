@@ -5,5 +5,7 @@ elsif board[index] = "X"
   return false
 elsif board[index] = "O"
   return false
+elsif index !<9 
+  return false
 end
 end
