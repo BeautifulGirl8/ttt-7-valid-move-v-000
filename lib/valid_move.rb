@@ -5,6 +5,6 @@ elsif board[index] = "X"
   return false
 elsif board[index] = "O"
   return false
- 
+
 end
 end
