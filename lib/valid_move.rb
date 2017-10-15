@@ -7,12 +7,12 @@ end
  end
 
   elsif index < 9 && board[index] == " "
-    
+
     return true
   end
 
   elsif index < 9 && board[index] == ""
-     true
+     return true
    end
 
 end
